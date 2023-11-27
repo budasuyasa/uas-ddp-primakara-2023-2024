@@ -23,7 +23,7 @@ yang dipinjam, nama peminjam, tanggal pinjam, dan tanggal pengembalian.
 Adapun spesifikasi teknis yang harus dipenuhi oleh aplikasi ini adalah sebagai
 berikut:
 
-1.  Aplikasi console yang dapat dibuat dengan bahasa pemrograman Go
+1.  Aplikasi console yang dapat dibuat dengan bahasa pemrograman Javascript
 2.  Data aplikasi disimpan dalam file plain text dengan ekten .txt atau .json
 3.  Aplikasi memiliki fitur menambahkan buku baru, mencari data buku, dan menghapus
     data buku
@@ -35,11 +35,11 @@ berikut:
 5.  Aplikasi dapat dijalankan dengan menggunakan argument. Sebagai contoh, untuk menambahkan
     data buku, maka perintah yang dijalankan adalah:
     
-        go run main.go tambah_buku -judul="Belajar Go" -pengarang="Agus Kopling" -tahun=2020 -stok=10
+        node main.js tambah_buku -judul="Belajar Go" -pengarang="Agus Kopling" -tahun=2020 -stok=10
     
     Sedangkan untuk menambahkan data peminjaman buku, maka perintah yang dijalankan adalah:
     
-        go run main.go tambah_pinjam -judul="Belajar Go" -peminjam="Tugek DPS48" -tgl_pinjam="2020-01-01" -tgl_kembali="2020-01-08"
+        node main.js tambah_pinjam -judul="Belajar Go" -peminjam="Tugek DPS48" -tgl_pinjam="2020-01-01" -tgl_kembali="2020-01-08"
 
 Ketentuan khusus:
 
@@ -117,7 +117,7 @@ terdapat fitur untuk mencari resep berdasarkan nama resep.
 
 Adapun spesifikasi teknis yang harus dipenuhi oleh aplikasi ini adalah sebagai berikut:
 
-1.  Aplikasi console yang dapat dibuat dengan bahasa pemrograman Go
+1.  Aplikasi console yang dapat dibuat dengan bahasa pemrograman Javascript
 2.  Data aplikasi disimpan dalam file plain text dengan ekten .txt atau .json
 3.  Aplikasi memiliki fitur menambahkan resep baru, mencari data resep, dan menghapus
     data resep
@@ -255,7 +255,7 @@ Berikut merupakan contoh program yang diinginkan oleh Neng Wijah:
 Adapun spesifikasi teknis yang harus dipenuhi oleh aplikasi ini adalah sebagai
 berikut:
 
-1.  Aplikasi console yang dapat dibuat dengan bahasa pemrograman Go
+1.  Aplikasi console yang dapat dibuat dengan bahasa pemrograman Javascript
 2.  Data aplikasi disimpan dalam file plain text dengan ekten .txt atau .json
 
 Ketentuan khusus:
@@ -286,7 +286,7 @@ nama kategorinya.
 
 Adapun spesifikasi teknis yang harus dipenuhi oleh aplikasi ini adalah sebagai berikut:
 
-1.  Aplikasi console yang dapat dibuat dengan bahasa pemrograman Go
+1.  Aplikasi console yang dapat dibuat dengan bahasa pemrograman Javascript
 2.  Data aplikasi disimpan dalam file plain text dengan ekten .txt atau .json
 3.  Aplikasi memiliki fitur menambahkan daftar belanjaan, mencari data belanjaan, dan menghapus
     data belanjaan
@@ -372,7 +372,7 @@ event. Tugus juga ingin mengetahui event mana yang akan diadakan dalam 7 hari me
 
 Adapun spesifikasi teknis yang harus dipenuhi oleh aplikasi ini adalah sebagai berikut:
 
-1.  Aplikasi console yang dapat dibuat dengan bahasa pemrograman Go
+1.  Aplikasi console yang dapat dibuat dengan bahasa pemrograman Javascript
 2.  Data aplikasi disimpan dalam file plain text dengan ekten .txt atau .json
 3.  Aplikasi memiliki fitur menambahkan event baru, mencari data event, dan menghapus
     data event
@@ -473,7 +473,7 @@ serta penelusuran data keluarga yang memiliki hubungan ayah, ibu, dan anak.
 Adapun spesifikasi teknis yang harus dipenuhi oleh aplikasi ini adalah sebagai
 berikut:
 
-1.  Aplikasi console yang dapat dibuat dengan bahasa pemrograman Go
+1.  Aplikasi console yang dapat dibuat dengan bahasa pemrograman Javascript
 2.  Data aplikasi disimpan dalam file plain text dengan ekten .txt atau .json
 3.  Aplikasi memiliki fitur menambahkan data keluarga, mencari data keluarga, dan menghapus
     data keluarga
@@ -528,4 +528,3 @@ Ada pun contoh program yang diinginkan oleh Tugek adalah sebagai berikut:
     Data keturunan dari Tugus Tamvan adalah:
     Anak: Diana Putri
     Pilih Menu: [1-6]: 6
-
